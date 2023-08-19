@@ -12,21 +12,30 @@ body {
     color: #6C757D;
 }
 
-.nav {
-	position: fixed;
-	min-width: 200px;
-	min-height: 100vh;
-}
+.navbar {
+    li{
+        &:hover{
+            color: green;
+            border-left: 4px solid green;
 
+            a, span{
+                &:hover{
+                    color: green;
+                }
+            }
+        }
+
+        a{
+            &:hover{
+                color: green;
+            }
+        }
+    }
+}
 
 
 table {
 	width: 100%;
-}
-
-.emir{
-    width: 141px;
-    height: 141px;
 }
 
 
